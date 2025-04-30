@@ -68,7 +68,7 @@ Modificar o prontuário do Paciente
 
 ### Objetivo
 
-Cancelar uma consulta médica, atenriormente confirmada
+Cancelar uma consulta médica, ateriormente confirmada
 
 ### Atores
 
@@ -82,14 +82,26 @@ Cancelar uma consulta médica, atenriormente confirmada
 
 Deve haver uma consulta anteriormente marcada, e algum dos indivíduos, deve solicitar o cancelamento da consulta
 
+O Administrador deve estar logado no Sistema
+
 ### Fluxo Principal
 
-1 - Aministrador informa seu Usuário e Senha para acessar o Sistema
+1 - O Administrador acessa a aba de Gerenciamento de Consultas
 
-2 - O Sistema verfica se os dados fornecidos estão corretos
+2 - O Administrador navega até o dia específico da consulta a ser cancelada
 
-3 - Se validados, o Administrador recebe acesso ao Sistema
+3 - Acessa a Consulta a ser desmarcada
 
-4 - O Administrador acessa a aba de Gerenciamento de Consultas, e o dia específico da consulta a ser cancelada
+4 - Efetua o cancelamento da consulta
 
-5 - O Administrador efetua o cancelamento da consulta
+5 - O Administrador contata a outra parte, para informar do cancelamento
+
+### Fluxo Alternativo
+
+Não encontrado a consulta agendada no Sistema
+
+### Pós-condições
+
+O Administrador consegue desmarcar a consulta com êxito
+
+## 6 - 
