@@ -30,7 +30,7 @@ Observar o histórico de saúde do paciente, além de todas as informações rel
 
 ### Atores 
 
-**Paciente:** Irá Consultar seu próprio prontuário
+**Paciente:** Irá consultar seu próprio prontuário
 
 ## 2 - Realizar Agendamento
 
@@ -41,10 +41,6 @@ Agendar o Paciente, para uma consulta com o Médico
 ### Atores
 
 **Paciente:** O paciente deve informar o motivo do agendamento da consulta, além de confirmar o dia possível para realizar o mesmo, ou então, entrar em consenso com o Administrador para o melhor dia para ambos
-
-**Administrador:** Aquele que irá consultar a agenda do Médico, e irá confirmar com o paciente o dia da consulta
-
-**Médico:** Indivíduo que irá confirmar com o Adiministrador a disponibilidade para consulta, e trazer especificações caso necessário para a consulta
 
 ## 3 - Cadastrar Médico
 
@@ -62,3 +58,38 @@ Catalogar o Médico em questão no Sistema
 
 ### Objetivo
 
+Modificar o prontuário do Paciente
+
+### Atores
+
+**Médico:** Indivíduo especializado que irá alterar com responsabilidade e conhecimento o prontuário do Paciente
+
+## 5 - Desmarcar uma Consulta
+
+### Objetivo
+
+Cancelar uma consulta médica, atenriormente confirmada
+
+### Atores
+
+**Administrador:** Aquele que irá desfazer a consulta no sistema
+
+**Médico:** Possível indivíduo que irá requisitar o cancelamento da consulta
+
+**Paciente:** Possível indivíduo que irá requisitar o cancelamento da consulta
+
+### Pré-requisitos
+
+Deve haver uma consulta anteriormente marcada, e algum dos indivíduos, deve solicitar o cancelamento da consulta
+
+### Fluxo Principal
+
+1 - Aministrador informa seu Usuário e Senha para acessar o Sistema
+
+2 - O Sistema verfica se os dados fornecidos estão corretos
+
+3 - Se validados, o Administrador recebe acesso ao Sistema
+
+4 - O Administrador acessa a aba de Gerenciamento de Consultas, e o dia específico da consulta a ser cancelada
+
+5 - O Administrador efetua o cancelamento da consulta
