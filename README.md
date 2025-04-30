@@ -80,7 +80,9 @@ Cancelar uma consulta médica, ateriormente confirmada
 
 ### Pré-requisitos
 
-* Deve haver uma consulta anteriormente marcada, e algum dos indivíduos, deve solicitar o cancelamento da consulta
+* Deve haver uma consulta anteriormente marcada
+
+* Algum dos indivíduos, deve solicitar o cancelamento da consulta
 
 * O Administrador deve estar logado no Sistema
 
@@ -104,4 +106,34 @@ Não encontrado a consulta agendada no Sistema
 
 O Administrador consegue desmarcar a consulta com êxito
 
-## 6 - 
+## 6 - Cadastrar Paciente
+
+### Objetivo 
+
+Catalogar o Paciente no Sistema
+
+### Atores
+
+**Paciente:** Aquele no qual irá realizar seu próprio cadastro no Sistema
+
+### Pré-requisitos
+
+* Sistema está funcionando
+
+### FLuxo Principal
+
+1 - Usuário seleciona para realizar o cadastro no Sistema
+
+2 - Usuário informa todas as informações pessoais necessárias para realizar o cadastro
+
+3 - Usuário efetua o cadastro
+
+### Fluxo Alternativo
+
+O Sistema não consegue validar certas informações (Ex: Idade)
+
+Tentativa de realizar cadastro de uma pessoa já cadastrada
+
+### Pós-condições
+
+O Paciente consegue se cadastrar no Sistema com sucesso
