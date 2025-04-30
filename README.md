@@ -80,9 +80,9 @@ Cancelar uma consulta médica, ateriormente confirmada
 
 ### Pré-requisitos
 
-Deve haver uma consulta anteriormente marcada, e algum dos indivíduos, deve solicitar o cancelamento da consulta
+* Deve haver uma consulta anteriormente marcada, e algum dos indivíduos, deve solicitar o cancelamento da consulta
 
-O Administrador deve estar logado no Sistema
+* O Administrador deve estar logado no Sistema
 
 ### Fluxo Principal
 
